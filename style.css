@@ -2,9 +2,111 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1024px;
+    padding: 0 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header {
+    background-color: #fff;
+}
+
+.header-inner {
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 36px;
+    color: #1298dd;
+    font-weight: 700;
+}
+
+.tourism {
+    font-size: 30px;
+    color: #8d8d8d;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    margin-left: 18px;
+}
+
+.menu-link {
+    display: block;
+    font-size: 16px;
+    color: #676767;
+}
+
+.menu-link.active {
+    border: 1px solid #1784d1;
+    background-color: #2fa4f3;
+    color: #f5f9fe;
+    padding: 8px 10px 9px;
+    border-radius: 5px;
+}
+
+.menu-link:hover {
+    border: 1px solid #8fc6f8;
+    background-color: #97c6f6;
+    color: #fff;
+    padding: 8px 10px 9px;
+    border-radius: 5px;
+}
+
+.intro {
+    background-image: url(./images/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 170px 0 160px;
+    color: #fff;
+}
+
+.intro-title {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 52px;
+}
+
+.intro-subtitle {
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 39px;
+}
+
+.intro-btn {
+    padding: 22px 55px;
+    background-color: #57c443;
+    border: 6px solid rgb(0, 0, 0, 0.12);
+    border-radius: 10px;
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+}
+
+  
+
+
+
 
